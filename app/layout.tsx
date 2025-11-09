@@ -7,8 +7,8 @@ import ClientLayout from "./ClientLayout";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aline4",
-  description: "4つの石を並べて勝利を目指せ！",
+  title: "Connect4-R",
+  description: "connect4のリデザイン",
 };
 
 export default function RootLayout({

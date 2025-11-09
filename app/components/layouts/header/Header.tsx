@@ -3,11 +3,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { usePathname } from 'next/navigation';
 import RankingModal from '../../RankingModal';
 
 export default function Header() {
-    const pathname = usePathname();
     const [isRankingModalOpen, setIsRankingModalOpen] = useState(false);
 
     return (
@@ -15,7 +13,7 @@ export default function Header() {
             <nav className="container mx-auto px-4 py-4">
                 <div className="flex justify-between items-center">
                     <Link href="/" className="text-xl font-bold text-gray-800">
-                        Conect4-R
+                        Connect4-R
                     </Link>
                     <div className="flex space-x-8">
                         <Link
